@@ -27,7 +27,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
             'https://api.openweathermap.org/data/2.5/weather?lat=&latitude&lon=&longitude&appid=&appid');
     var weatherdata = networkHelper.getData();
     Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return LocationScreen();
+      return LocationScreen(locationWeather: weatherdata);
     }));
   }
 
