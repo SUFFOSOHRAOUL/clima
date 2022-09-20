@@ -74,3 +74,6 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
+//var id = jsonDecode(data)['weather'][0]['id'];
+ //   var temperature = jsonDecode(data)['main']['temp'];
+  //  var name = jsonDecode(data)['name'];
